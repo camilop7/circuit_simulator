@@ -4,6 +4,9 @@ class Component:
         self.name = name
         self.id = []  # Store IDs of shapes drawn on the canvas
 
+    def set_value(self, value):
+        pass  # This method can be overridden in subclasses
+
     def get_position(self):
         # Return the current position of the component
         if self.id:
